@@ -1,0 +1,46 @@
+.nav-content{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    background-color: #000;
+}
+
+.nav-title{
+    color: white;
+    font-size: 10;
+    margin-left: 2%;
+}
+.button-list{
+    position: absolute;
+    display: flex;
+    top: 5px;
+    right: 2%;
+    float: right;
+}
+.nav-button{
+    font-weight: 10px;
+    background: none;
+    border-width: 1px ;
+    border-color: white;
+    width: 150px;
+    height: 34px;
+    color: white;
+    margin: 2%;
+}
+
+.nav-button:hover{
+    border-color: white;
+    border: 1px solid;
+    color: black;
+    background-color: white;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.nav-titlehome{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 10;
+}
