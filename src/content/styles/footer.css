@@ -6,7 +6,6 @@
     height: 150px;
     width: 100%;
     color: white;
-    scroll-behavior: smooth;
     text-align: center;
     z-index: 1;
 }
@@ -15,6 +14,7 @@
     position: absolute;
     bottom: 0;
     left: 40%;
+    color: #666;
 }
 .social{
     display: flex;

@@ -1,13 +1,12 @@
 import React from 'react';
 import '../../styles/navbar.css';
-import Footer from '../Footer/Footer'
 
 function Navbar() {
     return(
         <>
         <div className='nav-content'>
             <div className='nav-title'>
-                <h2>Mi Curriculum</h2>
+                <h2>Carlos Zerpa</h2>
             </div>
             <div className='button-list'>
                 <button className='nav-button'>Inicio</button>
@@ -16,7 +15,6 @@ function Navbar() {
                 <button className='nav-button'>Diplomas</button>
             </div>
         </div>
-            <Footer/>
         </>
     );
 }
