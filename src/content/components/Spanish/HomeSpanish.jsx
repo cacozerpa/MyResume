@@ -13,6 +13,10 @@ import vs from '../../images/vs.jfif'
 import pg from '../../images/pg3.png'
 import mongo from '../../images/MongoDB.jpeg'
 import microsoft from '../../images/microsoft.png';
+import html from '../../images/html.png';
+import css from '../../images/css.axd.png'
+import python from '../../images/python.png'
+import django from '../../images/django.jpg'
 import Footer from '../Footer/Footer';
 import '../../styles/home.css'
 import '../../styles/spanishhome.css'
@@ -25,13 +29,13 @@ function HomeSpanish(){
                 <div className='esp-content'>
                     <img src={imagen} alt="me" />
                     <h2>¿Quien Soy?</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    
-                    <p>Pizzle ghetto fo shizzle sizzle tellivizzle, shiz adipiscing elit. Nullizzle tellivizzle velit, mofo volutpizzle, boom shackalack da bomb, owned vizzle, pimpin'. Pellentesque eget crunk. Sed erizzle. Fusce izzle dolizzle dapibus boofron tempizzle shizzle my nizzle crocodizzle. My shizz shizzle my nizzle crocodizzle nibh sheezy turpis. Crazy izzle bizzle. Pellentesque eleifend rhoncizzle ass. In stuff habitasse platea dictumst.</p>
+                    <p>Mi nombre es Carlos Zerpa, Soy un Ing. en Computación de {new Date().getFullYear() - 1998} Venezolano/Colombiano, trabajador y muy responsable. Soy una persona muy organizada al momento de realizar cualquier actividad, ademas de preocuparme porque el ambiente de trabajo siempre sea el mas optimo. Tambien puedo conectar facilmente con otras personas y puedo liderar o ser liderado por los demas sin ningun problema. Al momento de tomar decisiones lo hago de la manera mas rapida y con seguridad. Me gusta estar en constante aprendizaje y puedo captar instrucciones de manera muy rapida y lo mas importante me gusta ser puntual al momento de entregar mis trabajos. </p>
+
                 </div>
 
                 <div className='skills-content'>
-                    <h1>Mis Habilidades</h1>
+                    <h1>Mis Habilidades:</h1> 
+                    <small>Aqui veras algunas de las habilidades que poseo actualmente</small>
                     <div className = 'skill'>
                         <img src={rct} alt="" />  
                         <h2>React.js</h2>   
@@ -90,6 +94,26 @@ function HomeSpanish(){
                     <div className = 'skill'>
                         <img src={microsoft} alt="" /> 
                         <h2>Microsoft Services</h2>
+                        <small>Test</small>         
+                    </div>
+                    <div className = 'skill'>
+                        <img src={html} alt="" /> 
+                        <h2>HTML</h2>
+                        <small>Test</small>         
+                    </div>
+                    <div className = 'skill'>
+                        <img src={css} alt="" /> 
+                        <h2>CSS</h2>
+                        <small>Test</small>         
+                    </div>
+                    <div className = 'skill'>
+                        <img src={python} alt="" /> 
+                        <h2>Python</h2>
+                        <small>Test</small>         
+                    </div>
+                    <div className = 'skill'>
+                        <img src={django} alt="" /> 
+                        <h2>Django</h2>
                         <small>Test</small>         
                     </div>
                 </div>

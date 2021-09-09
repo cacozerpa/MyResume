@@ -1,20 +1,22 @@
 .esp-content {
     position: absolute;
-    top: 170px;
-    left: 180px;
+    top: 27%;
+    left: 23%;
     background: black;
-    padding: 3%;
-    max-height: 250px;
+    padding: 4%;
+    height: 360px;
     max-width: 900px;
     color: white;
     text-align: justify;
+    font-size: 20px;
+    word-spacing: 2px;
     box-shadow: 2px 2px 10px black;
 }
 
 
 .esp-content img{
     width: 250px;
-    height: 250px;
+    height: 340px;
     border-radius: 20px;
     box-shadow: 2px 2px 10px #666;
     float: left;
@@ -27,18 +29,26 @@
 
 .skills-content{
     margin-top: 100vh;
-    height: 49em;
+    height: 60em;
     width: 100%;
     background: white;
     display: grid;
     grid-template-columns: repeat(4, 250px);
     grid-auto-rows: 200px;
     gap: 1em;
-
 }
 
 .skills-content h1 {
-    margin-left: 200px;
+    margin-left: 457px;
+    margin-top: 25px;
+    font-size: 40px;
+    position: absolute;
+}
+
+.skills-content small {
+    margin-left: 745px;
+    margin-top: 44px;
+    font-size: 20px;
     position: absolute;
 }
 
@@ -51,7 +61,8 @@
     height: 150px;
     margin: 100px;
     justify-content: center;
-    left: 100px;
+    left: 150%;
+    top: 1%;
     text-align: center;
     background: black;
     box-shadow: 2px 2px 10px black; ;

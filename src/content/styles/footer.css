@@ -1,9 +1,9 @@
 .footer-content{
     background-color: black;
     position: absolute;
-    margin-top: 700px;
+    margin-top: 65%;
     left: 0;
-    height: 150px;
+    height: 300px;
     width: 100%;
     color: white;
     text-align: center;
@@ -12,8 +12,8 @@
 
 .rights{
     position: absolute;
-    bottom: 0;
-    left: 40%;
+    bottom: 27%;
+    left: 43%;
     color: #666;
 }
 .social{
