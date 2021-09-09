@@ -26,100 +26,113 @@ function HomeSpanish(){
         <>
          <div className='sel-content'>
                 <video src={video} autoPlay loop muted></video>
-                <div className='esp-content'>
-                    <img src={imagen} alt="me" />
-                    <h2>¿Quien Soy?</h2>
-                    <p>Mi nombre es Carlos Zerpa, Soy un Ing. en Computación de {new Date().getFullYear() - 1998} Venezolano/Colombiano, trabajador y muy responsable. Soy una persona muy organizada al momento de realizar cualquier actividad, ademas de preocuparme porque el ambiente de trabajo siempre sea el mas optimo. Tambien puedo conectar facilmente con otras personas y puedo liderar o ser liderado por los demas sin ningun problema. Al momento de tomar decisiones lo hago de la manera mas rapida y con seguridad. Me gusta estar en constante aprendizaje y puedo captar instrucciones de manera muy rapida y lo mas importante me gusta ser puntual al momento de entregar mis trabajos. </p>
+                <div className = 'section'>
+                    <div className='esp-content'>
+                        <img src={imagen} alt="me" />
+                        <h2>¿Quien Soy?</h2>
+                        <p>Mi nombre es Carlos Zerpa, Soy un Ing. en Computación de {new Date().getFullYear() - 1998} Venezolano/Colombiano, trabajador y muy responsable. Soy una persona muy organizada al momento de realizar cualquier actividad, ademas de preocuparme porque el ambiente de trabajo siempre sea el mas optimo. Tambien puedo conectar facilmente con otras personas y puedo liderar o ser liderado por los demas sin ningun problema. Al momento de tomar decisiones lo hago de la manera mas rapida y con seguridad. Me gusta estar en constante aprendizaje y puedo captar instrucciones de manera muy rapida y lo mas importante me gusta ser puntual al momento de entregar mis trabajos. </p>
 
+                    </div>
                 </div>
-
+                
+                <div className = 'section'>
                 <div className='skills-content'>
                     <h1>Mis Habilidades:</h1> 
                     <small>Aqui veras algunas de las habilidades que poseo actualmente</small>
                     <div className = 'skill'>
                         <img src={rct} alt="" />  
                         <h2>React.js</h2>   
-                        <small>Test</small>     
+                        <small>1 año de experiencia</small>     
                     </div>
                     <div className = 'skill'>
                         <img src={node} alt="" />  
                         <h2>Node.js</h2>
-                        <small>Test</small>     
+                        <small>1 año de experiencia con express.js</small>     
                     </div>
                     <div className = 'skill'>
                         <img src={java} alt="" />  
                         <h2>Java</h2>
-                        <small>Test</small>     
+                        <small>+1 año de experiencia con Java y Java EE</small>     
                     </div>
                     <div className = 'skill'>
                         <img src={c} alt="" />  
                         <h2>C ++</h2>
-                        <small>Test</small>     
+                        <small>1 año de experiencia</small>     
                     </div>
                     <div className = 'skill'>
                         <img src={mvc} alt="" /> 
                         <h2>MVC</h2>  
-                        <small>Test</small>       
+                        <small>+1 año de experiencia</small>       
                     </div>
                     <div className = 'skill'>
                         <img src={bd} alt="" />  
                         <h2>Bases de Datos</h2>
-                        <small>Test</small>     
+                        <small>+2 años de experiencia con SQL y NoSQL</small>     
                     </div>
                     <div className = 'skill'>
                         <img src={pm} alt="" /> 
                         <h2>Postman</h2> 
-                        <small>Test</small>        
+                        <small>1 año de experiencia</small>        
                     </div>
                     <div className = 'skill'>
                         <img src={git} alt="" /> 
                         <h2>Git</h2>  
-                        <small>Test</small>       
+                        <small>+1 año de experiencia</small>       
                     </div>
                     <div className = 'skill'>
                         <img src={vs} alt="" /> 
                         <h2>Visual Studio</h2>  
-                        <small>Test</small>       
+                        <small>+2 años de experiencia</small>       
                     </div>
                     <div className = 'skill'>
                         <img src={pg} alt="" /> 
                         <h2>PostgreSQL</h2>  
-                        <small>Test</small>       
+                        <small>+2 años de experiencia</small>       
                     </div>
                     <div className = 'skill'>
                         <img src={mongo} alt="" /> 
                         <h2>MongoDB</h2>   
-                        <small>Test</small>      
+                        <small>1 año de experiencia</small>      
                     </div>
                     <div className = 'skill'>
                         <img src={microsoft} alt="" /> 
                         <h2>Microsoft Services</h2>
-                        <small>Test</small>         
+                        <small>+3 años de experiencia</small>         
                     </div>
                     <div className = 'skill'>
                         <img src={html} alt="" /> 
                         <h2>HTML</h2>
-                        <small>Test</small>         
+                        <small>+2 años de experiencia</small>         
                     </div>
                     <div className = 'skill'>
                         <img src={css} alt="" /> 
                         <h2>CSS</h2>
-                        <small>Test</small>         
+                        <small>+2 años de experiencia</small>         
                     </div>
                     <div className = 'skill'>
                         <img src={python} alt="" /> 
                         <h2>Python</h2>
-                        <small>Test</small>         
+                        <small>En aprendizaje</small>         
                     </div>
                     <div className = 'skill'>
                         <img src={django} alt="" /> 
                         <h2>Django</h2>
-                        <small>Test</small>         
+                        <small>En aprendizaje</small>         
                     </div>
                 </div>
+
+                <div className='section'>
+                    <div className = 'contact'>
+                        
+                    </div>
+                </div>
+                </div>
+                
+                <div className="section">
                 <div className='footer'>
                     <Footer/>
                 </div>
+                </div>  
             </div>
         </>
     )
