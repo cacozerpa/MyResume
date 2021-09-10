@@ -6,6 +6,7 @@ import Navbar from '../Navbar/Navbar'
 import HomeNav from '../Navbar/HomeNavBar'
 import Home from '../Home/Home';
 import SpanishHome from '../Spanish/HomeSpanish';
+import DataSpanish from "../Spanish/DataSpanish";
 
 function Index(){
     return(
@@ -19,6 +20,10 @@ function Index(){
                     <Route path='/esp'>
                         <Navbar/>
                         <SpanishHome/>
+                    </Route>
+                    <Route path='/espdata'>
+                        <Navbar/>
+                        <DataSpanish/>
                     </Route>
                 </Switch>
             </Router>

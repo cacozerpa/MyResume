@@ -17,6 +17,8 @@ import html from '../../images/html.png';
 import css from '../../images/css.axd.png'
 import python from '../../images/python.png'
 import django from '../../images/django.jpg'
+import ws from '../../images/WhatsApp.png'
+import email from '../../images/Email-PNG-Photo.png'
 import Footer from '../Footer/Footer';
 import '../../styles/home.css'
 import '../../styles/spanishhome.css'
@@ -123,11 +125,19 @@ function HomeSpanish(){
 
                 <div className='section'>
                     <div className = 'contact'>
-                        
+                        <h2>¿Quieres trabajar conmigo?</h2>
+                        <p>Contáctame!</p>
+                            <div className = 'contact-info'>
+                                <img src={ws} alt="" />
+                                <a href="https://wa.link/yqg0i4">Click Aqui! para enviarme un mensaje +58424-6002854</a>
+                            </div>
+                            <div className = 'contact-info'>
+                                <img src={email} alt="" className='email'/>
+                                <a href=""> Mi correo zerpa2007@hotmail.com</a>
+                            </div>
                     </div>
                 </div>
                 </div>
-                
                 <div className="section">
                 <div className='footer'>
                     <Footer/>
